@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #0d1a2d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+.card {
+  background: #16263d;
+  padding: 20px;
+  border-radius: 6px;
+  height: 700px;
+  width: 400px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.card:hover {
+  transform: scale(1.2);
+}
+
+.card-image img {
+  border-radius: 6px;
+}
+
+.card-infos {
+  margin-top: 20px;
+}
+
+.card-infos h1 {
+  color: #fff;
+  font-size: 24px;
+}
+
+.card-infos p {
+  color: #8babd7;
+  margin: 20px 0;
+  font-size: 20px;
+  line-height: 27px;
+}
+
+.card-infos-detail {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-infos-detail-item {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+}
+
+.ethereum p {
+  color: #20f1e9;
+}
+
+.card-footer {
+  display: flex;
+  align-items: center;
+  column-gap: 30px;
+}
+
+.card-footer img {
+  width: 45px;
+  border: 1px solid #fff;
+  border-radius: 100%;
+}
+
+.card-footer p {
+  font-size: 18px;
+  color: #8babd7;
+}
+
+.card-footer p span {
+  color: #fff;
+}
+
+.separator {
+  border: 1px solid #1f3149;
+  margin-bottom: 20px;
+}
